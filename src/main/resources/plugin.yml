@@ -1,0 +1,16 @@
+name: Coalitions
+version: '1.0.0'
+main: dev.coalitions.CoalitionsPlugin
+api-version: '1.21'
+description: '@plugin.description@'
+author: YourName
+
+commands:
+  co:
+    description: '@plugin.command.description@'
+    usage: '@plugin.command.usage@'
+
+permissions:
+  coalition.admin:
+    description: '@plugin.permission.description@'
+    default: op
